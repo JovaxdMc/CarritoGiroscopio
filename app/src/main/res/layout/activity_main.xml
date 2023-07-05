@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:layout_marginVertical="100dp"
+        android:id="@+id/btnConnectBluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conectar Bluetooth" />
+
+    <Button
+        android:id="@+id/btnDetener"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detener" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="←" />
+        <Button
+            android:id="@+id/btnUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="↑" />
+
+
+
+        <Button
+            android:id="@+id/btnRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="→" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="↓" />
+
+    <TextView
+        android:id="@+id/txtX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/txtY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/txtZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="10dp" />
+
+</LinearLayout>

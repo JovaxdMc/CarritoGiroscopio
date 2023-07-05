@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnConnectBluetooth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="400dp"
+            android:text="Conectar Bluetooth" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnUp"
+        android:layout_marginTop="60dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="↑"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="170dp"
+        android:textSize="50sp"
+        android:layout_toRightOf="@+id/btnDetener"
+        />
+
+
+    <Button
+        android:id="@+id/btnDown"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/btnUp"
+        android:text="↓"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="170dp"
+        android:layout_toRightOf="@+id/btnDetener"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btnLeft"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40dp"
+        android:text="←"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btnRight"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="80dp"
+        android:layout_toStartOf="@+id/btnDetener"
+        android:text="→"
+        android:textSize="50sp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnDetener"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:text="Detener" />
+
+    <TextView
+        android:id="@+id/txtX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_below="@+id/btnDetener"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_below="@+id/txtX"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/txtZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_below="@+id/txtY"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
+
